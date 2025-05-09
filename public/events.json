@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Product Launch Planning",
+    "date": "2025-05-01T10:00:00",
+    "duration": 60
+  },
+  {
+    "title": "Marketing Team Sync",
+    "date": "2025-05-01T11:30:00",
+    "duration": 30
+  },
+  {
+    "title": "Budget Review",
+    "date": "2025-05-02T09:00:00",
+    "duration": 45
+  },
+  {
+    "title": "UX Feedback Session",
+    "date": "2025-05-02T10:00:00",
+    "duration": 60
+  },
+  {
+    "title": "Lunch with Client",
+    "date": "2025-05-03T12:30:00",
+    "duration": 90
+  },
+  {
+    "title": "All Hands Meeting",
+    "date": "2025-05-06T10:00:00",
+    "duration": 90
+  },
+  {
+    "title": "1-on-1 with Manager",
+    "date": "2025-05-07T09:00:00",
+    "duration": 30
+  },
+  {
+    "title": "Developer Standup",
+    "date": "2025-05-07T10:00:00",
+    "duration": 15
+  },
+  {
+    "title": "Frontend Review",
+    "date": "2025-05-07T11:00:00",
+    "duration": 45
+  },
+  {
+    "title": "Design QA",
+    "date": "2025-05-08T14:00:00",
+    "duration": 60
+  },
+  {
+    "title": "Interview - Backend Role",
+    "date": "2025-05-09T13:00:00",
+    "duration": 60
+  },
+  {
+    "title": "Sprint Planning",
+    "date": "2025-05-12T10:00:00",
+    "duration": 60
+  },
+  {
+    "title": "Coffee Chat - DevRel",
+    "date": "2025-05-13T15:00:00",
+    "duration": 30
+  },
+  {
+    "title": "Webinar Hosting",
+    "date": "2025-05-14T16:00:00",
+    "duration": 90
+  },
+  {
+    "title": "Team Outing",
+    "date": "2025-05-16T13:00:00",
+    "duration": 180
+  },
+  {
+    "title": "Roadmap Review",
+    "date": "2025-05-20T10:00:00",
+    "duration": 60
+  },
+  {
+    "title": "Data Sync",
+    "date": "2025-05-21T11:00:00",
+    "duration": 45
+  },
+  {
+    "title": "Company Townhall",
+    "date": "2025-05-22T14:00:00",
+    "duration": 60
+  },
+  {
+    "title": "Strategy Session",
+    "date": "2025-05-27T10:00:00",
+    "duration": 120
+  },
+  {
+    "title": "Wrap-up & Retrospective",
+    "date": "2025-05-30T16:00:00",
+    "duration": 60
+  }
+]

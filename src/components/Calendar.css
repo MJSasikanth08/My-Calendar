@@ -1,0 +1,351 @@
+.calendar-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calendar-header h2 {
+  font-size: 24px;
+}
+
+.calendar-header button {
+  margin: 0 2px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.day-labels {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 1px solid #eee;
+}
+
+.calendar-cell {
+  border: 1px solid #f0f0f0;
+  min-height: 100px;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  position: relative;
+}
+
+.cell-date {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.event {
+  font-size: 12px;
+  padding: 2px 4px;
+  margin-bottom: 2px;
+  background-color: #f1f1f1;
+  border-left: 3px solid #007bff;
+  border-radius: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.today {
+  background-color: #ffeaea;
+  border: 2px solid red;
+}
+/* Calendar Container */
+.calendar-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Header */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.calendar-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+}
+
+.calendar-header button {
+  background-color: #ff7043;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 5px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calendar-header button:hover {
+  background-color: #f4511e;
+}
+
+/* Day Labels */
+.day-labels {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Calendar Grid */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+/* Individual Cell */
+.calendar-cell {
+  min-height: 120px;
+  background-color: #fdfdfd;
+  border: 1px solid #e0e0e0;
+  padding: 8px;
+  border-radius: 8px;
+  position: relative;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.calendar-cell:hover {
+  box-shadow: inset 0 0 0 2px #ff7043;
+}
+
+/* Date in Cell */
+.cell-date {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+/* Events */
+.event {
+  font-size: 12px;
+  background-color: #e0f2f1;
+  color: #00695c;
+  padding: 4px 6px;
+  border-left: 4px solid #00796b;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.event:nth-child(2n) {
+  background-color: #f1f8e9;
+  color: #558b2f;
+  border-left: 4px solid #689f38;
+}
+
+/* Today */
+.today {
+  border: 2px solid #ff7043;
+  background-color: #fff3e0;
+}
+.calendar-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header h2 {
+  margin: 0;
+}
+
+.calendar-header button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.day-labels {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 100px); /* Fixed 6 rows for consistent size */
+  gap: 1px;
+  background-color: #ddd;
+}
+
+.calendar-cell {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 4px;
+  font-size: 12px;
+  overflow: auto;
+  position: relative;
+}
+
+.cell-date {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.today {
+  background-color: #e3f2fd;
+  border: 2px solid #2196f3;
+}
+
+.event {
+  background-color: #ffecb3;
+  margin: 2px 0;
+  padding: 2px 4px;
+  border-left: 3px solid #ffc107;
+  font-size: 11px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.calendar-wrapper {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #fafafa;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  padding: 8px 0;
+  color: #444;
+  cursor: pointer;
+}
+.calendar-wrapper {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #fafafa;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar-event {
+  padding: 8px;
+  background-color: #fffbe6;
+  border-left: 4px solid #ffc107;
+  border-radius: 4px;
+  font-size: 13px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+.calendar-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #fafafa;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar-event {
+  padding: 8px;
+  background-color: #fffbe6;
+  border-left: 4px solid #ffc107;
+  border-radius: 4px;
+  font-size: 13px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
