@@ -11,10 +11,6 @@ A responsive and interactive calendar application built using React. It supports
 - ⏪⏩ Navigate to previous/next months
 - 💾 Events loaded from a static JSON file (`public/events.json`)
 
-## 🖼 Preview
-
-![Calendar Screenshot](![image](https://github.com/user-attachments/assets/844392ab-c4db-4a41-b6f5-11d47d4d8e6d)
-) <!-- Replace this with your actual screenshot file -->
 
 ## 📁 Directory Structure
 
