@@ -6,7 +6,6 @@ A responsive and interactive calendar application built using React. It supports
 
 - 📆 Month grid with fixed-size day cells
 - 🗂 Sidebar listing all scheduled events
-- ➕ Modal for adding new events
 - 🖍 Color-coded overlapping events
 - ⏪⏩ Navigate to previous/next months
 - 💾 Events loaded from a static JSON file (`public/events.json`)
